@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.example</groupId>
+    <artifactId>ABCTestReleaseConfigs</artifactId>
+    <version>1.0.2-SNAPSHOT</version>
+  </parent>
+  <groupId>com.example</groupId>
+  <artifactId>ABCTestReleaseConfigs_module</artifactId>
+  <version>1.0.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>ABCTestReleaseConfigs_module</name>
+  <description>ABCTestReleaseConfigs_module</description>
+  <modules>
+    <module>proxy-services/abcTestProxy</module>
+    <module>metadata/abcTestProxy_proxy_metadata</module>
+    <module>api/XYZApi</module>
+    <module>metadata/XYZApi_swagger</module>
+    <module>metadata/XYZApi_metadata</module>
+  </modules>
+</project>
