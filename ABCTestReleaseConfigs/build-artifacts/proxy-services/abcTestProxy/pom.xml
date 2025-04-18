@@ -4,12 +4,12 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>ABCTestReleaseConfigs_module</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.2</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <groupId>com.example.proxy-service</groupId>
   <artifactId>abcTestProxy</artifactId>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>1.0.2</version>
   <packaging>synapse/proxy-service</packaging>
   <name>abcTestProxy</name>
   <description>abcTestProxy</description>
