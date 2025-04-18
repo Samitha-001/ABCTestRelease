@@ -4,11 +4,11 @@
   <parent>
     <groupId>com.example</groupId>
     <artifactId>ABCTestRelease</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
   </parent>
   <groupId>com.example</groupId>
   <artifactId>ABCTestReleaseCompositeExporter</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.2-SNAPSHOT</version>
   <packaging>carbon/application</packaging>
   <name>ABCTestReleaseCompositeExporter</name>
   <description>ABCTestReleaseCompositeExporter</description>
@@ -24,31 +24,31 @@
     <dependency>
       <groupId>com.example.api</groupId>
       <artifactId>XYZApi</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2-SNAPSHOT</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>abcTestProxy_proxy_metadata</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>XYZApi_metadata</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
     <dependency>
       <groupId>com.example.proxy-service</groupId>
       <artifactId>abcTestProxy</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2-SNAPSHOT</version>
       <type>xml</type>
     </dependency>
     <dependency>
       <groupId>com.example.metadata</groupId>
       <artifactId>XYZApi_swagger</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2-SNAPSHOT</version>
       <type>yaml</type>
     </dependency>
   </dependencies>
